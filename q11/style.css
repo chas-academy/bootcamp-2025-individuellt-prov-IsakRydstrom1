@@ -1,8 +1,11 @@
 body {
+  height: 100vh;
+  width: 100vw;
   margin: 0;
 }
 
 .container {
-  height: 100vh;
-  background-color: #d6f4ff;
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
 }

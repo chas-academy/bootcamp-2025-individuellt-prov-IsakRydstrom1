@@ -2,16 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   min-height: 100vh;
-  padding: 2rem;
+  width: 100vw;
   display: flex;
   background-color: #fff5ec;
+  flex: 100%;
 }
 
 .box {
   padding: 0.5rem;
   background-color: #ffd5c2;
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  background-color: lightblue;
+}
+
+.boxother-box{
+  padding: 0.5rem;
+  background-color: #ffd5c2;
+  width: 500px;
+  height: 50px;
+  margin: 5px;
+  background-color: lightblue;
 }
